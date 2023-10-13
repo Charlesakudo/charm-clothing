@@ -1,0 +1,62 @@
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: 1900px;
+}
+
+.box {
+  width: 550px;
+  height: 550px;
+  border: 2px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#suits-box {
+  background-image: url('pinpics/Theory\ Spring\ 2019\ Menswear\ Fashion\ Show.jpeg');
+}
+
+#casual-box {
+  background-image: url('pinpics/download.jpeg');
+}
+
+#sportswear-box {
+  background-image: url('pinpics/gym.png');
+}
+
+.box h2 {
+  background-color: rgba(255, 255, 255, 0.8); /* Set background for the text area */
+  padding: 10px;
+  color: #fff;
+  background: transparent;
+}
+
+.box:hover {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly more opaque on hover */
+}
